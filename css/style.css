@@ -76,3 +76,9 @@ body .component .col.summary h2{
     font-size: 2rem;
     color: hsl(224, 30%, 27%);
 }
+
+body .component .summary-results {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
