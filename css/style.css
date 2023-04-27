@@ -6,6 +6,7 @@ body {
 body .component {
     display: flex;
     flex-direction: column;
+    background-color: #fff;
 }
 
 body .component .col {
