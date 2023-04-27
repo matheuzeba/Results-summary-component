@@ -130,6 +130,7 @@ body .component .col.summary  button  {
 }
 
 body .component .col.summary button:hover {
+    cursor: pointer;
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
 }
 
