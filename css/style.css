@@ -1,4 +1,3 @@
-
 /* organizando coluna */
 body .component {
     display: flex;
@@ -10,7 +9,10 @@ body .component .col {
 }
 
 /* .RESULT */
+
+/* col-result */
 body .component .col.result {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
