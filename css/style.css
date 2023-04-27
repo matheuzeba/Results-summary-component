@@ -102,6 +102,7 @@ body .component .summary-results  p {
 }
 
 body .component .summary-results  p span{
+    display: flex;
     font-size: 1.5rem;
     font-weight: 700;
     color: hsl(241, 100%, 89%);
@@ -141,4 +142,13 @@ body .component .summary-results.verbal .title p {
 
 body .component .summary-results.verbal {
     background: hsl(166, 100%, 37%, 10%);
+}
+
+/* visual */
+body .component .summary-results.visual .title p {
+    color: hsl(234, 85%, 45%);
+}
+
+body .component .summary-results.visual {
+    background: hsl(234, 85%, 45%, 10%);
 }
