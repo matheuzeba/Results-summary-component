@@ -5,7 +5,10 @@ body .component {
 }
 
 body .component .col {
+    min-height: 50%;
     padding: 2rem;
+
+    justify-content: space-between;
 }
 
 /* .RESULT */
@@ -15,34 +18,54 @@ body .component .col.result {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
-
     text-align: center;
 
+    height: 40rem;
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) ) ;
 }
 
+/* .RESULT-TOP */
+body .component .col.result .result-top {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 /* h3 */
-body .component .col.result h3{
+body .component .col.result .result-top h3{
     font-size: 2rem;
     color: hsl(241, 100%, 89%);
 }
 
-/* Circle */
-body .component .col.result .result-circle{
-    width: 50%;
+/* p */
+body .component .col.result p{
+    font-size: 1.8rem;
+    color: hsl(241, 100%, 89%);
+}
+
+/* .RESULT-CIRCLE */
+body .component .col.result .result-top .result-circle{
+    max-width: 100%;
+    width: 17rem;
     padding: 4rem;
     border-radius: 100%;
     background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     text-align: center;
 }
 
-body .component .col.result .result-circle h1{
+body .component .col.result .result-top .result-circle h1{
     font-size: 5rem;
     color:  hsl(0, 0%, 100%);
 }
 
-body .component .col.result p{
-    font-size: 1.8rem;
-    color: hsl(241, 100%, 89%);
+/* .result-text */
+body .component .col.result .result-text {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+body .component .col.result .result-text h2{
+    font-size: 2.5rem;
+    color: #fff;
 }
