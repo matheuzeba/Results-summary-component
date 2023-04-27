@@ -90,9 +90,26 @@ body .component .summary-results {
     align-items: center;
 }
 
-
-body .component .summary-results .title p {
+/* p */
+body .component .summary-results  p {
     display: flex;
     align-items: center;
+    gap: 0.5rem;
     font-size: 1.8rem;
+    font-weight: 700;
+}
+
+body .component .summary-results  p span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(241, 100%, 89%);
+}
+
+body .component .summary-results .title p {
+    color: hsl(0, 100%, 67%);
+}
+
+/* score */
+body .component .summary-results .score p {
+    color: hsl(224, 30%, 27%);
 }
