@@ -124,3 +124,12 @@ body .component .summary-results.reaction .title p {
 body .component .summary-results.reaction {
     background: hsl(0, 100%, 67%, 10%);
 }
+
+/* memory */
+body .component .summary-results.memory .title p {
+    color: hsl(39, 100%, 56%);
+}
+
+body .component .summary-results.memory {
+    background: hsl(39, 100%, 56%, 10%);
+}
