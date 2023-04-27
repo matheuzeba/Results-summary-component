@@ -1,0 +1,16 @@
+
+/* organizando coluna */
+body .component {
+    display: flex;
+    flex-direction: column;
+}
+
+body .component .col {
+    padding: 2rem;
+}
+
+/* .RESULT */
+body .component .col.result {
+    display: flex;
+    justify-content: center;
+}
