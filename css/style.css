@@ -15,10 +15,34 @@ body .component .col.result {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
+
+    text-align: center;
+
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) ) ;
 }
 
 /* h3 */
 body .component .col.result h3{
     font-size: 2rem;
-    color: hsl(224, 30%, 27%, 80%);
+    color: hsl(241, 100%, 89%);
+}
+
+/* Circle */
+body .component .col.result .result-circle{
+    width: 50%;
+    padding: 4rem;
+    border-radius: 100%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    text-align: center;
+}
+
+body .component .col.result .result-circle h1{
+    font-size: 5rem;
+    color:  hsl(0, 0%, 100%);
+}
+
+body .component .col.result p{
+    font-size: 1.8rem;
+    color: hsl(241, 100%, 89%);
 }
