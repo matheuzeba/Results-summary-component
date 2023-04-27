@@ -133,3 +133,12 @@ body .component .summary-results.memory .title p {
 body .component .summary-results.memory {
     background: hsl(39, 100%, 56%, 10%);
 }
+
+/* verbal */
+body .component .summary-results.verbal .title p {
+    color: hsl(166, 100%, 37%);
+}
+
+body .component .summary-results.verbal {
+    background: hsl(166, 100%, 37%, 10%);
+}
