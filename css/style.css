@@ -88,6 +88,8 @@ body .component .summary-results {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 /* p */
@@ -105,11 +107,20 @@ body .component .summary-results  p span{
     color: hsl(241, 100%, 89%);
 }
 
-body .component .summary-results .title p {
-    color: hsl(0, 100%, 67%);
-}
-
 /* score */
 body .component .summary-results .score p {
     color: hsl(224, 30%, 27%);
+}
+
+
+
+/* INDIVIDUAIS */
+
+/* reaction */
+body .component .summary-results.reaction .title p {
+    color: hsl(0, 100%, 67%);
+}
+
+body .component .summary-results.reaction {
+    background: hsl(0, 100%, 67%, 10%);
 }
