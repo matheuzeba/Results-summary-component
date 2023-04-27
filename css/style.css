@@ -21,7 +21,7 @@ body .component .col.result {
 
     height: 40rem;
     border-radius: 0 0 3rem 3rem;
-    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) ) ;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
 }
 
 /* .RESULT-TOP */
@@ -113,6 +113,21 @@ body .component .summary-results .score p {
     color: hsl(224, 30%, 27%);
 }
 
+/* button */
+
+
+body .component .col.summary  button  {
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 800;
+    border-radius: 10rem;
+    color: #fff;
+    background: hsl(224, 30%, 27%);
+}
+
+body .component .col.summary button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+}
 
 
 /* INDIVIDUAIS */
